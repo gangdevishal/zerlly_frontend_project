@@ -1,0 +1,15 @@
+.delete_cancel_btn {
+    color:#00CF83 !important;
+    border: solid 1px;
+}
+.delete_submit_btn {
+    background: #E61C27 !important;
+    border-color:#E61C27 !important;
+}
+
+.btns-delete {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}

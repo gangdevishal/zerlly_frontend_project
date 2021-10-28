@@ -1,0 +1,394 @@
+.ant-layout-header {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 1px 0px #c6cacd;
+  height: auto;
+  padding: 0 10px;
+  color: rgba(0, 0, 0, 0.85);
+  line-height: 64px;
+}
+.brand_logo {
+  display: inline-block;
+}
+.brand_logo img {
+  height: 45px;
+}
+.ant-menu-horizontal {
+  border: 0px;
+}
+.search_bar {
+  cursor: none;
+  display: inline-block;
+  margin-left: 25px;
+  width: 20%;
+}
+
+.search_bar .ant-input-affix-wrapper {
+  background-color: #f0f2f4;
+  border: none;
+  border-radius: 5px;
+}
+
+.search_bar .ant-input-affix-wrapper > input.ant-input {
+  padding-top: 2px !important;
+}
+
+.search_bar .ant-input-affix-wrapper-lg {
+  padding: 5px !important;
+}
+
+.search_bar .ant-input {
+  background-color: #f0f2f4;
+}
+
+.left_side_menu {
+  width: 65%;
+}
+.right_side_menu {
+  width: 15%;
+}
+
+.right_side_menu ul {
+  display: flex;
+  justify-content: flex-end;
+}
+.ant-input-prefix img {
+  height: 15px;
+}
+
+
+.ant-menu .ant-menu-item-selected,.ant-menu-item-selected a, .ant-menu-item-selected a:hover,
+.ant-menu-item:hover,
+.ant-menu-horizontal > .ant-menu-item a:hover {
+  font-weight: bold;
+  color: #1a1d20 !important;
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected::after {
+  border-bottom: 0px !important;
+}
+
+.ant-menu-horizontal > .ant-menu-item::after,
+.ant-menu-horizontal > .ant-menu-submenu::after {
+  border-bottom: 0px !important;
+}
+
+.ant-menu-horizontal > .ant-menu-item-selected a {
+  color: rgba(0, 0, 0, 0.85);
+}
+.site-layout-content {
+  height: calc(100vh - 70px);
+  overflow: auto;
+}
+.ant-layout-content {
+  padding: 0 !important;
+  padding-top: 70px !important;
+  /* height: 100vh; */
+}
+
+.right-icon .ant-menu-item {
+  padding: 0 10px !important;
+}
+
+.notification_menu,.user_menu {
+  top: 22px;
+}
+
+.top_header {
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+}
+
+.notification_menu_item {
+  white-space: normal;
+  height: auto;
+}
+
+.notification_menu_item > .ant-dropdown-menu-title-content {
+  width: 100% !important;
+}
+
+.notification_area {
+  height: 350px;
+  width: 450px;
+  overflow: auto;
+}
+
+.notification_area_2 {
+  height: auto !important;
+}
+
+/* // Responsive BarIcon */
+.barsMenu {
+  float: right;
+  height: 32px;
+  padding: 6px;
+  display: none;
+  background: none;
+  border-color: #1a1d20;
+}
+
+.barsBtn {
+  display: block;
+  width: 20px;
+  height: 2px;
+  background: #1a1d20;
+  position: relative;
+}
+
+.barsBtn:after,
+.barsBtn:before {
+  content: attr(x);
+  width: 20px;
+  position: absolute;
+  top: -6px;
+  left: 0;
+  height: 2px;
+  background: #1a1d20;
+}
+
+.barsBtn:after {
+  top: auto;
+  bottom: -6px;
+}
+
+.ant-drawer-body {
+  padding: 0;
+}
+
+.barsMenu>span {
+  display: block;
+}
+
+.ant-drawer-body .ant-menu-horizontal>.ant-menu-item,
+.ant-drawer-body .ant-menu-horizontal>.ant-menu-submenu {
+  display: inline-block;
+  width: 100%;
+}
+
+.ant-drawer-body .ant-menu-horizontal {
+  border-bottom: none;
+}
+
+.ant-drawer-body .ant-menu-horizontal>.ant-menu-item:hover {
+  border-bottom-color: transparent;
+}
+
+.side_brand_logo{
+  text-align: center;
+}
+.side_brand_logo img {
+  height: 48px;
+}
+
+.ant-menu-item-icon,.left-menu-div .ant-menu-item svg{
+  display: none;
+}
+
+.menu-drawer .ant-drawer-body {
+  overflow: hidden !important;
+}
+
+.ant-drawer-body > .left-menu-div {
+  height: 100%;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.right-menu-div > .ant-menu-item > .ant-menu-title-content {
+  overflow: visible !important;
+}
+
+/* :::::::::::::::::::::: Responsive CSS Code Start ::::::::::::::::::::::::::: */
+
+/* Mobile devices */
+@media screen and (max-device-width: 480px) {
+  .barsMenu {
+    display: inline-block;
+  }
+
+  .brand_logo,.left_side_menu {
+    display: none;
+  }
+
+  .search_bar {
+    margin-left: 10px;
+    width: 100%;
+  }
+
+  .left-menu-div .ant-menu-item, .left-menu-div .ant-menu-submenu{
+    padding-left: 60px !important;
+  }
+
+  .ant-menu-item-icon,.left-menu-div .ant-menu-item svg{
+    display: inline-flex;
+    margin-right: 15px;
+  }
+
+  .ant-menu-inline, .ant-menu-vertical, .ant-menu-vertical-left {
+    border: 0;
+  }
+
+  .right_side_menu {
+    width: auto;
+  }
+
+  .right-menu-div .ant-menu-item{
+    padding-left: 15px !important;
+  }
+
+  .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background-color:unset;
+  }
+
+  .ant-menu-vertical .ant-menu-item::after, .ant-menu-vertical-left .ant-menu-item::after, .ant-menu-vertical-right .ant-menu-item::after, .ant-menu-inline .ant-menu-item::after {
+    border-right:0;
+  }
+
+  .ant-menu-item-selected .menu-border{
+    border: solid 3px #F5B200;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    border-radius: 0px 5px 5px 0px;
+  }
+
+  .notification_menu,.user_menu {
+    top: 25px;
+  }
+
+  .notification_area {
+    width: 100vw;
+  }
+}
+/* iPads, Tablets */
+@media screen and (min-device-width: 481px) and (max-device-width: 767px) {
+  .barsMenu {
+    display: inline-block;
+  }
+
+  .brand_logo,.left_side_menu {
+    display: none;
+  }
+
+  .search_bar {
+    margin-left: 10px;
+    width: 100%;
+  }
+
+  .left-menu-div .ant-menu-item, .left-menu-div .ant-menu-submenu{
+    padding-left: 60px !important;
+  }
+
+  .ant-menu-item-icon,.left-menu-div .ant-menu-item svg{
+    display: inline-flex;
+    margin-right: 15px;
+  }
+
+  .ant-menu-inline, .ant-menu-vertical, .ant-menu-vertical-left {
+    border: 0;
+  }
+
+  .right_side_menu {
+    width: auto;
+  }
+
+  .right-menu-div .ant-menu-item{
+    padding-left: 15px !important;
+  }
+
+  .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background-color:unset;
+  }
+
+  .ant-menu-vertical .ant-menu-item::after, .ant-menu-vertical-left .ant-menu-item::after, .ant-menu-vertical-right .ant-menu-item::after, .ant-menu-inline .ant-menu-item::after {
+    border-right:0;
+  }
+
+  .ant-menu-item-selected .menu-border{
+    border: solid 3px #F5B200;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    border-radius: 0px 5px 5px 0px;
+  }
+
+  .notification_menu,.user_menu {
+    top: 25px;
+  }
+}
+/* Small screens, laptops */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .barsMenu {
+    display: inline-block;
+  }
+
+  .brand_logo,.left_side_menu {
+    display: none;
+  }
+
+  .search_bar {
+    margin-left: 10px;
+    width: 100%;
+  }
+
+  .left-menu-div .ant-menu-item, .left-menu-div .ant-menu-submenu{
+    padding-left: 60px !important;
+  }
+
+  .ant-menu-item-icon,.left-menu-div .ant-menu-item svg{
+    display: inline-flex;
+    margin-right: 15px;
+  }
+
+  .ant-menu-inline, .ant-menu-vertical, .ant-menu-vertical-left {
+    border: 0;
+  }
+
+  .right_side_menu {
+    width: auto;
+  }
+
+  .right-menu-div .ant-menu-item{
+    padding-left: 15px !important;
+  }
+
+  .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background-color:unset;
+  }
+
+  .ant-menu-vertical .ant-menu-item::after, .ant-menu-vertical-left .ant-menu-item::after, .ant-menu-vertical-right .ant-menu-item::after, .ant-menu-inline .ant-menu-item::after {
+    border-right:0;
+  }
+
+  .ant-menu-item-selected .menu-border{
+    border: solid 3px #F5B200;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    border-radius: 0px 5px 5px 0px;
+  }
+
+  .notification_menu,.user_menu {
+    top: 25px;
+  }
+}
+/* Desktops, large screens */
+@media screen and (min-device-width: 1025px) and (max-device-width: 1200px) {
+}
+/* Extra large screens, TV */
+@media screen and (min-device-width: 1201px) {
+}
+
+/* :::::::::::::::::::::: Responsive CSS Code End ::::::::::::::::::::::::::: */

@@ -1,0 +1,212 @@
+.calendar_backlog_section {
+  padding: 20px;
+}
+
+.calendar_backlog_section  .ant-card:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+
+.calendar_backlog_section .card-container .ant-card {
+  border-radius: 5px;
+}
+
+.calendar_backlog_section .card-container .ant-card .ant-card-head {
+  background: #E5E9EC;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.calendar_backlog_section .card-container .ant-card .ant-card-body {
+  background: #ffffff;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.calendar_backlog_section .card-container {
+  height: calc(100vh - 175px);
+  overflow: auto;
+}
+
+.calendar_backlog_section .backlog-deal ::-webkit-scrollbar {
+  width: 4px !important;
+}
+
+.calendar_backlog_section .backlog-deal ::-webkit-scrollbar-thumb {
+  background: grey;
+}
+
+.backlog-deal-card-title {
+  display: flex;
+  align-items: center;
+}
+
+.backlog-deal-card-title .ticon {
+  margin-right: 15px;
+  display: inline-flex;
+}
+
+.backlog-deal-card-title .text {
+  padding-top: 3px;
+}
+
+
+.label_first .title, .label_second .title, .label_third .title{
+  display: flex;
+  font-weight: normal;
+  font-size: 10px;
+  color: #4E5256;
+}
+
+.label_first .value, .label_second .value, .label_third .value{
+  font-weight: 500;
+  font-size: 12px;
+  color: #1A1D20;
+}
+.label_second, .label_third{
+  width: 50%;
+}
+
+.second_third_label{
+  display: flex;
+  margin-top: 10px;
+}
+.label_second .sales{
+  display: flex;
+  align-items: center;
+}
+.label_second .sales .sicon{
+  margin-right: 5px;
+  display: inline-flex;
+}
+
+.label_second .sales .sicon img{
+  height: 20px;
+}
+.calendar-main-backlog {
+  background: #f0f2f5;
+}
+.calendar-main-backlog > .ant-card-head {
+  border-radius: 5px;
+  background: #FFFFFF;
+  margin-bottom: 5px;
+}
+
+.calendar-main-backlog > .ant-card-head > .ant-card-head-wrapper > .ant-card-head-title {
+  font-weight: 500;
+  font-size: 15px;
+  color: #1A1D20;
+}
+
+.calendar-main-backlog > .ant-card-body {
+  padding: 0;
+}
+
+.calendar_section {
+  padding: 20px;
+}
+
+.calendar_section .calender-main {
+  background: #ffffff;
+  padding: 10px;
+  height: calc(100vh - 110px);
+  overflow: auto;
+}
+
+.ant-card-bordered {
+  border: 0 !important;
+}
+
+a.event-design {
+  border-width: 1px 1px 1px 5px !important;
+  border-style: solid !important;
+  border-radius: 2px !important;
+  padding: 5px !important;
+}
+
+.fc-daygrid-event > .fc-event-main:hover {
+  white-space: normal;
+}
+
+.backlog-event {
+  border-width: 1px 1px 1px 5px !important;
+  border-style: solid !important;
+  border-radius: 3px;
+  display: inline-flex;
+  align-items: center;
+  padding-right: 5px;
+  cursor: pointer;
+}
+
+.event-design .fc-event-main {
+  display: flex;
+  align-items: center;
+  color: #1A1D20 !important;
+  overflow: hidden;
+}
+
+.backlog-deal-card-title .dealbadge {
+  display: flex;
+  position: absolute;
+  right: 15px;
+}
+
+.card-container .dealbadge .ant-badge-status-dot {
+  width: 15px;
+  height: 15px;
+}
+
+.fc-timegrid-event-harness > .fc-timegrid-event {
+  position: relative !important;
+}
+
+.fc-timegrid-event-harness-inset .fc-timegrid-event, .fc-timegrid-event.fc-event-mirror, .fc-timegrid-more-link {
+  box-shadow: none !important;
+}
+
+.no_calendar_backlog_deal {
+  padding: 10px;
+}
+
+/* :::::::::::::::::::::: Responsive CSS Code Start ::::::::::::::::::::::::::: */
+
+/* Mobile devices */
+@media screen and (max-device-width: 480px) {
+  .calendar_section .calender-main .fc-toolbar-chunk{
+    text-align: center;
+  }
+
+  .fc-direction-ltr .fc-toolbar > * > :not(:first-child) {
+    margin-top: 0.15em !important;
+    margin-left: 0 !important;
+  }
+}
+/* iPads, Tablets */
+@media screen and (min-device-width: 481px) and (max-device-width: 767px) {
+  .calendar_section .calender-main .fc-toolbar-chunk{
+    text-align: center;
+  }
+
+  .fc-direction-ltr .fc-toolbar > * > :not(:first-child) {
+    margin-top: 0.15em !important;
+    margin-left: 0 !important;
+  }
+}
+/* Small screens, laptops */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .calendar_section .calender-main .fc-toolbar-chunk{
+    text-align: center;
+  }
+
+  .fc-direction-ltr .fc-toolbar > * > :not(:first-child) {
+    margin-top: 0.15em !important;
+    margin-left: 0 !important;
+  }
+}
+/* Desktops, large screens */
+@media screen and (min-device-width: 1025px) and (max-device-width: 1200px) {
+}
+/* Extra large screens, TV */
+@media screen and (min-device-width: 1201px) {
+}
+
+/* :::::::::::::::::::::: Responsive CSS Code End ::::::::::::::::::::::::::: */

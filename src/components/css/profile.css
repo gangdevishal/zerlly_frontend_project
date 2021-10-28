@@ -1,0 +1,118 @@
+.myProfile {
+  background: #ffffff;
+  /* border: solid 1px grey; */
+  padding: 35px;
+  margin: 25px auto;
+}
+
+.myProfile .profile_section .joined_dt {
+  margin-top: 10px;
+}
+
+.myProfile .profile_section .edit-avtar {
+  background: #433f3f;
+  padding: 10px;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  display: inline-flex;
+  position: absolute;
+  top: 105px;
+  left: 50%;
+  cursor: pointer;
+}
+
+.myProfile .profile_section .edit-icon {
+  cursor: pointer;
+}
+
+.myProfile .profile_section .pic-bottom {
+    display: inline-flex;
+    margin-top: 15px;
+}
+
+.about-section .edit-input {
+    width: 95%;
+    margin-bottom: 5px;
+}
+
+.won_section .ant-col {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.followup_section .ant-col {
+  margin-top: 40px;
+}
+
+.profile_section .avtar-section .ant-avatar-circle {
+    border: solid 1px #fbecec;
+}
+
+/* :::::::::::::::::::::: Responsive CSS Code Start ::::::::::::::::::::::::::: */
+
+/* Mobile devices */
+@media screen and (max-device-width: 480px) {
+    .profile_section .avtar-section {
+        text-align: center;
+    }
+
+    .myProfile .profile_section .edit-avtar {
+        left: 60%;
+    }
+
+    .myProfile .profile_section .about-section{
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .myProfile .profile_section .edit-about-btn{
+        text-align: center;
+    }
+}
+/* iPads, Tablets */
+@media screen and (min-device-width: 481px) and (max-device-width: 767px) {
+    .profile_section .avtar-section {
+        text-align: center;
+    }
+
+    .myProfile .profile_section .edit-avtar {
+        left: 60%;
+    }
+
+    .myProfile .profile_section .about-section{
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .myProfile .profile_section .edit-about-btn{
+        text-align: center;
+    }
+}
+/* Small screens, laptops */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .profile_section .avtar-section {
+        text-align: center;
+    }
+
+    .myProfile .profile_section .edit-avtar {
+        left: 55%;
+    }
+
+    .myProfile .profile_section .about-section{
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .myProfile .profile_section .edit-about-btn{
+        text-align: center;
+    }
+}
+/* Desktops, large screens */
+@media screen and (min-device-width: 1025px) and (max-device-width: 1200px) {
+}
+/* Extra large screens, TV */
+@media screen and (min-device-width: 1201px) {
+}
+
+/* :::::::::::::::::::::: Responsive CSS Code End ::::::::::::::::::::::::::: */

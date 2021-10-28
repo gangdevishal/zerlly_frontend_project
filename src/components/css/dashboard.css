@@ -1,0 +1,116 @@
+.round.round-sm {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.react-kanban-column-header {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  position: relative;
+  padding-bottom: 0;
+  padding: 15px;
+  background: #e5e9ec;
+  border-radius: 5px;
+  width: 280px;
+  height: 40px;
+  margin-bottom: 15px;
+}
+
+.react-kanban-column-header .filter_sort {
+  position: absolute;
+  right: 20px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.react-kanban-column-header .filter_sort div {
+  margin-left: 10px;
+  cursor: pointer;
+  display: inline-flex;
+}
+
+.react-kanban-column {
+  background-color: unset;
+  padding: 5px;
+}
+
+.react-kanban-card {
+  width: 280px !important;
+  max-width: 280px !important;
+  min-width: 280px !important;
+  border-radius: 5px;
+  padding: 0;
+}
+
+.board_title{
+    font-size: 12px;
+}
+.react-kanban-card__title {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 15px;
+    width: 280px;
+    height: 40px;
+    background: #E5E9EC;
+    border-radius: 5px 5px 0 0;
+}
+
+.react-kanban-card__title .heading{
+    font-size: 12px;
+    color: #1A1D20;
+    margin-left: 15px;
+}
+.react-kanban-card__description{
+    padding: 15px;
+}
+
+.react-kanban-card__description .label_first .title, .react-kanban-card__description .label_second .title, .react-kanban-card__description .label_third .title{
+    display: flex;
+    font-weight: normal;
+    font-size: 10px;
+    color: #4E5256;
+}
+
+.react-kanban-card__description .label_first .value, .react-kanban-card__description .label_second .value, .react-kanban-card__description .label_third .value{
+    font-weight: 500;
+    font-size: 12px;
+    color: #1A1D20;
+}
+.react-kanban-card__description .label_second, .react-kanban-card__description .label_third{
+    width: 50%;
+}
+
+.react-kanban-card__description .second_third_label{
+    display: flex;
+    margin-top: 10px;
+}
+.react-kanban-card__description .label_second .sales{
+    display: flex;
+    align-items: center;
+}
+.react-kanban-card__description .label_second .sales img{
+    margin-right: 5px;
+    height: 20px;
+}
+
+.no_salesboard_deal {
+  padding: 10px;
+}
+
+.react-kanban-column > div:nth-of-type(2) {
+  max-height: calc(100vh - 180px);
+  overflow-y: auto;
+  /* border: solid; */
+}
+.react-kanban-column ::-webkit-scrollbar {
+  width: 2px !important;
+}
+
+.react-kanban-column ::-webkit-scrollbar-thumb {
+  background: grey;
+}

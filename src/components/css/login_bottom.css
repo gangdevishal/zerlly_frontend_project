@@ -1,0 +1,108 @@
+.bottom_page {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #D8DCDF;
+}
+
+.bottom_page .logo img{
+    height: 30px;
+}
+.bottom_page .mode {
+  padding-top: 5px;
+}
+.bottom_page .sun_mode, .bottom_page .moon_mode{
+    cursor: pointer;
+}
+
+.bottom_page .sun_mode {
+    margin-right: 15px;
+}
+.bottom_page .active_theme{
+    background: #fff;
+    padding: 2px;
+    border-radius: 3px;
+    display: inline-flex;
+}
+
+.bottom_page .language_section{
+    cursor: pointer;
+}
+
+/* This is drawer CSS */
+.index_wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .index_navbar{
+    position: fixed;
+    top: 5px;
+    width: 100%;
+    z-index: 99;
+    flex: 0 0 auto;
+    height: 2.48148rem;
+    padding: 10px;
+  }
+  .index_back{
+    left: 3.5555rem;
+    cursor: pointer;
+    position: absolute;
+    top: 1.27778rem;
+    width: 2.5rem;
+    font-size: 0.51852rem;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .index_page-title{
+    margin-bottom: 1.37037rem;
+    flex: 0 0 auto;
+    font-size: 3.81481rem;
+    color: #333333;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 80px;
+  }
+  
+  .index_scroll{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    overflow-y: auto;
+  }
+  .index_container{
+    width: 45rem;
+    max-height: 100%;
+    margin: 0 auto;
+    padding-bottom: 0.92593rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .index_content{
+    position: relative;
+  }
+  .index_item{
+    padding: 0.44444rem 1.11111rem 0.44444rem 0.74074rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .index_item:hover {
+    background: #f9f9f9;
+  }
+  .index_area{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5555rem;
+    line-height: 3.59259rem;
+    color: #000000;
+  }

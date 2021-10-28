@@ -1,0 +1,206 @@
+/* contact Modal */
+.contact_modal .ant-modal-body {
+  padding: 0;
+}
+.contact_modal .ant-tabs-nav {
+  background: #e5e9ec;
+  padding-left: 25px;
+}
+
+/* .contact_modal .ant-tabs-content-holder {
+  min-height: calc(100vh - 265px);
+} */
+
+.contact_modal .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn,
+.contact_modal .ant-tabs-tab:hover {
+  color: #000000;
+}
+
+.contact_modal .ant-tabs-ink-bar {
+  height: 0 !important;
+}
+
+.contact_left_section {
+  border-right: solid 2px #c6cacd;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+.contact_left_section .ant-row {
+  padding: 10px;
+}
+
+.contact_right_section {
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.contact_left_section .contactbadge .ant-badge-status-dot {
+  width: 15px;
+  height: 15px;
+}
+
+.contact_left_section .first_plan img {
+  height: 40px;
+}
+.contact_left_section .first_plan {
+  background: #f0f2f4;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.contact_left_section .first_plan .plan_title {
+  width: 50%;
+}
+
+.contact_left_section .first_plan .plan_date {
+  width: 50%;
+  text-align: right;
+}
+
+.contact_left_section .first_plan_row {
+  padding: 5px;
+}
+
+.contact_right_section .contact_action_bar {
+  width: 40px;
+  height: 40px;
+  background: #f0f2f4;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: right;
+  cursor: pointer;
+}
+
+.contact_right_section .note_messages .ant-comment {
+  width: 80%;
+  clear: both;
+  border-radius: 12px;
+  padding: 5px;
+  margin: 10px;
+}
+
+.contact_right_section .note_messages .ant-comment .comment-ribbon{
+    display: inline-flex;
+    align-items: center;
+    position: absolute;
+    top: -30px;
+    padding: 2px 5px 3px 5px;
+    background: #E5E9EC;
+    border-radius: 5px;
+    left: -35px;
+}
+
+.contact_right_section .note_messages .ant-comment .comment-ribbon .ricon {
+  margin-right: 5px;
+  display: inline-flex;
+}
+.contact_right_section .note_messages .ant-comment .comment-ribbon span {
+    padding-top: 2px;
+}
+.contact_right_section .comment_section {
+  height: 500px;
+  overflow: auto;
+}
+.contact_right_section .comment_section .right-message {
+  float: right;
+  background: #F8F7FF;
+}
+.contact_right_section .comment_section .left-message {
+  float: left;
+  background: #FFF3D6;
+}
+.contact_right_section .note_messages ::-webkit-scrollbar {
+  width: 5px !important;
+  height: 10px;
+}
+
+.contact_right_section .note_messages ::-webkit-scrollbar-thumb {
+  background: #f0f2f4;
+}
+
+.contact_right_section .note_input .sent_note_btn {
+  cursor: pointer;
+}
+
+.contact_right_section .note_input .ant-input-affix-wrapper {
+  border-radius: 12px;
+}
+
+.timeline_full_section {
+  padding: 5px;
+  margin-bottom: 15px;
+}
+.contact_log_timeline .timeline_full_section .ant-timeline-alternate {
+  padding: 20px;
+  overflow: auto;
+  /* height: calc(100vh - 300px); */
+  height: 500px;
+}
+
+.timeline_full_section .log-notes-comment {
+  background: #F8F7FF;
+  padding: 15px;
+}
+
+.contact_log_timeline .timeline_full_section ::-webkit-scrollbar {
+  width: 5px !important;
+  height: 10px;
+}
+
+.contact_log_timeline .timeline_full_section ::-webkit-scrollbar-thumb {
+  background: #f0f2f4;
+}
+
+.contact_log_timeline .timeline_full_section ::-webkit-scrollbar-button {
+  background: #fff;
+}
+
+.add_new_depart{
+    padding-left: 15px;
+}
+.add_new_depart img {
+    margin-right: 5px;
+}
+
+.add_new_depart .add_dept_btn {
+    color: #000000;
+    background: #F0F2F4;
+    border-color: #F0F2F4;
+}
+ .depart_list {
+     padding: 20px 15px;
+ }
+ 
+ .contact_edit_form .ant-form-item {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+
+/* :::::::::::::::::::::: Responsive CSS Code Start ::::::::::::::::::::::::::: */
+
+/* Mobile devices */
+@media screen and (max-device-width: 480px) {
+    .contact_left_section {
+        border-bottom: solid 2px #c6cacd;
+        border-right: 0;
+    }
+}
+/* iPads, Tablets */
+@media screen and (min-device-width: 481px) and (max-device-width: 767px) {
+}
+/* Small screens, laptops */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+}
+/* Desktops, large screens */
+@media screen and (min-device-width: 1025px) and (max-device-width: 1200px) {
+}
+/* Extra large screens, TV */
+@media screen and (min-device-width: 1201px) {
+}
+
+/* :::::::::::::::::::::: Responsive CSS Code End ::::::::::::::::::::::::::: */

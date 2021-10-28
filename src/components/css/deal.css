@@ -1,0 +1,155 @@
+.deal {
+    margin-bottom: 40px;
+  }
+  .deal_top_action {
+    border: solid #ccc4c4;
+    border-width: 0 0 1px 0;
+    background: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-top: -5px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+  }
+  
+  .deal_import_action {
+    float: right;
+  }
+
+  .deal_other_action .ant-divider-vertical {
+    top: 0;
+    border-left: 2px solid grey;
+  }
+  
+  
+  .deal_other_action img {
+    cursor: pointer;
+  }
+
+  .deal_other_action .othr_act {
+    display: inline-flex;
+    cursor: pointer;
+  }
+  .deal_other_action {
+    display: inline-flex;
+    align-items: center;
+  }
+  .deal_import_action img {
+    height: 22px;
+    margin-right: 13px;
+    cursor: pointer;
+  }
+
+  .deal_import_action{
+    display: inline-flex;
+    align-items: center;
+  }
+  .deal_import_action .imp_act {
+    display: inline-flex;
+    height: 22px;
+    margin-right: 13px;
+    cursor: pointer;
+  }
+  
+  .deal-table-row .ant-table-thead > tr > th {
+    background: #e5e9ec !important;
+    color: #1a1d20 !important;
+  }
+  
+  .deal-table-row .ant-table-tbody > tr > td {
+    background: #fff !important;
+    color: #1a1d20 !important;
+  }
+  .deal-table-row .ant-table-tbody > tr > td,
+  .deal-table-row .ant-table-thead > tr > th {
+    border: solid #f0f2f5;
+    border-width: 2px 0 2px 0;
+  }
+  
+  .deal-table-row .ant-table-thead > tr > th:last-child {
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+  }
+  .deal-table-row .ant-table-thead > tr > th:first-child {
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+  }
+  
+  .deal-table-row .ant-table-tbody > tr > td:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .deal-table-row .ant-table-tbody > tr > td:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  .deal-table-row .ant-table-body table,
+  .deal-table-row .ant-table-header table {
+    background: #f0f2f5 !important;
+  }
+  
+  .deal-table-row .tbl-col {
+    padding: 20px;
+  }
+
+  .deal-tbl .ant-table-container ::-webkit-scrollbar {
+    width: 5px !important;
+    height: 10px;
+  }
+  
+  .deal-tbl .ant-table-container ::-webkit-scrollbar-thumb {
+    background: grey;
+  }
+
+  .deal-tbl .ant-table-container .dealbadge .ant-badge-status-dot {
+    width: 15px;
+    height: 15px;
+  }
+
+  .ant-table-filter-dropdown .dealFilterForm {
+    padding: 10px 10px 1px 10px;
+  }
+  
+  .ant-table-filter-dropdown .dealFilterForm .ant-form-item {
+    margin-bottom: 10px;
+  }
+  
+  .ant-table-filter-dropdown .dealFilterForm .ant-divider-horizontal {
+    margin: 10px 0;
+  }
+  
+  .ant-table-filter-dropdown .dealFilterForm .filterBtnGrp {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+  .deal-tbl .ant-table-container .ant-table-cell-scrollbar {
+    box-shadow: unset;
+  }
+
+
+    /* :::::::::::::::::::::: Responsive CSS Code Start ::::::::::::::::::::::::::: */
+
+/* Mobile devices */
+@media screen and (max-device-width: 480px) {
+  .deal-table-row .tbl-col {
+    padding: 10px;
+  }
+}
+/* iPads, Tablets */
+@media screen and (min-device-width: 481px) and (max-device-width: 767px) {
+}
+/* Small screens, laptops */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+}
+/* Desktops, large screens */
+@media screen and (min-device-width: 1025px) and (max-device-width: 1200px) {
+}
+/* Extra large screens, TV */
+@media screen and (min-device-width: 1201px) {
+}
+
+/* :::::::::::::::::::::: Responsive CSS Code End ::::::::::::::::::::::::::: */

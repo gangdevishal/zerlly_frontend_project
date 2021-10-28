@@ -1,0 +1,31 @@
+.chart_section {
+    padding:   20px;
+}
+
+.chart_section .report-main {
+    background: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+/* :::::::::::::::::::::: Responsive CSS Code Start ::::::::::::::::::::::::::: */
+
+/* Mobile devices */
+@media screen and (max-device-width: 480px) {
+    .chart_section .report-main .custom-select {
+        width: 100% !important;
+    }
+  }
+  /* iPads, Tablets */
+  @media screen and (min-device-width: 481px) and (max-device-width: 767px) {
+  }
+  /* Small screens, laptops */
+  @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  }
+  /* Desktops, large screens */
+  @media screen and (min-device-width: 1025px) and (max-device-width: 1200px) {
+  }
+  /* Extra large screens, TV */
+  @media screen and (min-device-width: 1201px) {
+  }
+  
+  /* :::::::::::::::::::::: Responsive CSS Code End ::::::::::::::::::::::::::: */

@@ -1,0 +1,96 @@
+  .cancellation-table-row .ant-table-thead > tr > th {
+    background: #e5e9ec !important;
+    color: #1a1d20 !important;
+  }
+  
+  .cancellation-table-row .ant-table-tbody > tr > td {
+    background: #fff !important;
+    color: #1a1d20 !important;
+    /* white-space: normal; */
+  }
+  .cancellation-table-row .ant-table-tbody > tr > td,
+  .cancellation-table-row .ant-table-thead > tr > th {
+    border: solid #f0f2f5;
+    border-width: 2px 0 2px 0;
+  }
+  
+  .cancellation-table-row .ant-table-thead > tr > th:last-child {
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+  }
+  .cancellation-table-row .ant-table-thead > tr > th:first-child {
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+  }
+  
+  .cancellation-table-row .ant-table-tbody > tr > td:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .cancellation-table-row .ant-table-tbody > tr > td:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  .cancellation-table-row .ant-table-body table,
+  .cancellation-table-row .ant-table-header table {
+    background: #f0f2f5 !important;
+  }
+  
+  .cancellation-table-row .tbl-col {
+    padding: 20px;
+  }
+
+  .cancellation-table-row .tbl-col-action{
+    padding: 20px 20px 0 20px;
+  }
+
+  .cancellation-table-row .tbl-col-action .ant-row{
+    background: #ffffff;
+  }
+
+  .cancel-tbl .ant-table-container ::-webkit-scrollbar {
+    width: 5px !important;
+    height: 10px;
+  }
+  
+  .cancel-tbl .ant-table-container ::-webkit-scrollbar-thumb {
+    background: grey;
+  }
+
+  .cancel-tbl .ant-table-container .ant-table-cell-scrollbar {
+    box-shadow: unset;
+  }
+
+
+    /* :::::::::::::::::::::: Responsive CSS Code Start ::::::::::::::::::::::::::: */
+
+/* Mobile devices */
+@media screen and (max-device-width: 480px) {
+  .cancellation-table-row .tbl-col {
+    padding: 10px;
+  }
+
+  .cancellation-table-row .tbl-col-action{
+    padding: 20px 12px 0 12px;
+  }
+
+
+  .cancellation-table-row .tbl-col-action .custom-select {
+    width: 100% !important;
+  }
+}
+/* iPads, Tablets */
+@media screen and (min-device-width: 481px) and (max-device-width: 767px) {
+}
+/* Small screens, laptops */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+}
+/* Desktops, large screens */
+@media screen and (min-device-width: 1025px) and (max-device-width: 1200px) {
+}
+/* Extra large screens, TV */
+@media screen and (min-device-width: 1201px) {
+}
+
+/* :::::::::::::::::::::: Responsive CSS Code End ::::::::::::::::::::::::::: */

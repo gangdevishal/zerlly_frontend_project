@@ -1,0 +1,29 @@
+.settings-container {
+    margin: 25px auto;
+}
+
+.settings-container .notify-section{
+    background: #ffffff;
+    padding: 25px;
+    line-height: 2.1em;
+    margin-bottom: 15px;
+}
+
+.settings-container .change-pwd-section{
+    background: #ffffff;
+    padding: 25px;
+}
+
+.change-pwd-section .change_pswd_form .submit_btn {
+    width: 100%;
+    background: #f5b200;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid #f5b200;
+  }
+
+  .settings-container .notify-section .ant-switch-checked {
+    background-color: #f5b200;
+}
